@@ -1,0 +1,50 @@
+export const subservice = [
+    {   
+        id:1,
+        "title": "Website Localization",
+        "description": "It is a process of creating, launching, and optimizing websites in multiple languages.",
+        "image_1": "/services/translation/websiteLocatization/_f99523af-ad7c-4db0-b03b-7952a0bcb0b9.jpeg",
+        "image_2": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_3": "/services/translation/websiteLocatization/_914cf2bd-f0d4-4ed5-8284-364b87241016.jpeg",
+    },
+    {   
+        id:2,
+        "title": "Game Translation",
+        "description": "Translation of the storyline, dialogues, on-screen texts, videos and audio of the game.",
+        "image_1": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_2": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_3": "/services/translation/websiteLocatization/_914cf2bd-f0d4-4ed5-8284-364b87241016.jpeg",
+    },
+    {   
+        id:3,
+        "title": "Medical Translation ",
+        "description": "In Medical translation, the translation is carried out using the appropriate scientific terms that are relevant to the medical field.",
+        "image_1": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_2": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_3": "/services/translation/websiteLocatization/_914cf2bd-f0d4-4ed5-8284-364b87241016.jpeg",
+    },
+    {   
+        id:4,
+        "title": "Website Localization",
+        "description": "It is a process of creating, launching, and optimizing websites in multiple languages.",
+        "image_1": "/services/translation/websiteLocatization/_f99523af-ad7c-4db0-b03b-7952a0bcb0b9.jpeg",
+        "image_2": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_3": "/services/translation/websiteLocatization/_914cf2bd-f0d4-4ed5-8284-364b87241016.jpeg",
+    },
+    {   
+        id:5,
+        "title": "Game Translation",
+        "description": "Translation of the storyline, dialogues, on-screen texts, videos and audio of the game.",
+        "image_1": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_2": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_3": "/services/translation/websiteLocatization/_914cf2bd-f0d4-4ed5-8284-364b87241016.jpeg",
+    },
+    {   
+        id:6,
+        "title": "Medical Translation ",
+        "description": "In Medical translation, the translation is carried out using the appropriate scientific terms that are relevant to the medical field.",
+        "image_1": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_2": "/services/translation/websiteLocatization/_5c0a1adf-8f17-4ac7-b530-4f9b9f94b7f0.jpeg",
+        "image_3": "/services/translation/websiteLocatization/_914cf2bd-f0d4-4ed5-8284-364b87241016.jpeg",
+    }
+]

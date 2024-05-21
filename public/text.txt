@@ -1,0 +1,89 @@
+  <div className="  w-1/2 h-full  m-auto flex flex-wrap gap-10">
+            <div className="w-full  flex items-center justify-around px-12 pb-12">
+              <div className="flex flex-row justify-center items-center">
+                <div className=" flex flex-col gap-4 justify-center items-center">
+                  <h1>
+                    <span className="text-5xl font-bold text-[#EB5A00] bg-white">
+                      <CountUp start={0} end={150} duration={3.75}></CountUp>+
+                    </span>
+                  </h1>
+                  <h1 className="text-2xl font-Roboto font-semibold bg-white ">
+                    Languages
+                  </h1>
+                </div>
+              </div>
+
+              <div className="flex flex-row justify-center items-center">
+                <div className=" flex flex-col gap-4 justify-center items-center">
+                  <h1>
+                    <span className="text-5xl font-bold text-[#EB5A00] bg-white">
+                      <CountUp start={0} end={500} duration={5}></CountUp>+
+                    </span>
+                  </h1>
+                  <h1 className="text-2xl font-Roboto font-semibold bg-white">
+                    Projects
+                  </h1>
+                </div>
+              </div>
+
+              <div className="flex flex-row justify-center items-center">
+                <div className=" flex flex-col gap-4 justify-center items-center">
+                  <h1>
+                    <span className="text-5xl font-bold text-[#EB5A00] bg-white">
+                      <CountUp start={0} end={50} duration={2}></CountUp>+
+                    </span>
+                  </h1>
+                  <h1 className="text-2xl font-Roboto font-semibold bg-white">
+                    Clients
+                  </h1>
+                </div>
+              </div>
+            </div>
+      
+          </div> 
+
+
+
+
+
+          ////////////////////////////////
+ const handleSubmit = async (e) => {
+    e.preventDefault();
+    const requiredFields = [
+      "companyName",
+      "firstName",
+      "lastName",
+      "email",
+      "contactNumber",
+      "domain",
+      "language",
+      "projectType",
+      "message",
+    ];
+    const hasEmptyField = requiredFields.some((field) => !formData[field]);
+
+    if (hasEmptyField) {
+      toast.error("All fields are mandatory", {
+        position: "top-right",
+      });
+    }
+
+    try {
+      await axios.post("/api/translation", formData, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+
+        body: JSON.stringify(formData),
+      });
+
+      toast.success("Mail sent successfully", {
+        position: "top-center",
+      });
+
+      setFormData(initialState);
+
+    } catch (error) {
+      toast.error("Mail sending failed", error);
+    }
+  };

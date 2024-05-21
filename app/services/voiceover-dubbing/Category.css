@@ -1,0 +1,33 @@
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+.category{
+  direction: rtl;
+  overflow:auto;
+}
+
+.items {
+  direction:ltr;
+}
+
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #201f22;
+    border-radius: 5px;
+    
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #f6f6f6;
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;
+    border-radius: 5px;
+  }

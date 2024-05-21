@@ -1,0 +1,45 @@
+.nav{
+    position: relative;
+    background-color: transparent;
+    }
+    
+    .nav::before{
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        background-color: #f6f6f6 !important;
+        bottom: -2px;
+        left: 0;
+        z-index: -1;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .nav:hover::before{
+        width: 100%;
+    }
+
+    .quotes{
+        position: relative;
+        overflow: hidden;
+        background-color: transparent;
+        border: 2px solid white;
+    }
+
+    .quotes::before{
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 100%;
+
+        background-color: #ffffff3d !important;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .quotes:hover::before{
+        width: 100%;
+
+    }
