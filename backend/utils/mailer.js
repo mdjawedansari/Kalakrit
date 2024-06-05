@@ -23,7 +23,7 @@ const sendMail = async (formData) => {
 
   const mailOptions = {
     from: "testp3848@gmail.com",
-    to: "ejaz84916@gmail.com",
+    to: "jawed0216@gmail.com",
     subject: "New Contact Form Submission",
     html: `
     <div style=" font-family: Helvetica, sans-serif; margin: 0 auto; text-align: center;  max-width: 80%; " >

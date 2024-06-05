@@ -246,7 +246,7 @@ const TranslationLandingPage = () => {
                   <div className=" flex py-4 relative ">
                     <div className="z-10">
                       <img
-                        src="/team/ejaz.JPG"
+                        src="/team/jawed.jpg"
                         alt="anything"
                         className="w-12 h-12 rounded-full"
                       />
@@ -254,7 +254,7 @@ const TranslationLandingPage = () => {
 
                     <div className="absolute w-full left-8 -z-1">
                       <img
-                        src="/team/ejaz.JPG"
+                        src="/team/jawed.jpg"
                         alt="anything"
                         className="w-12 h-12 rounded-full  "
                       />
@@ -262,7 +262,7 @@ const TranslationLandingPage = () => {
 
                     <div className="absolute w-full left-16 -z-6 ">
                       <img
-                        src="/team/ejaz.JPG"
+                        src="/team/jawed.jpg"
                         alt="anything"
                         className=" w-12 h-12 rounded-full"
                       />
